@@ -1,0 +1,13 @@
+macOS Portable Release v4.2.1 - Placeholder
+
+This file represents the macOS portable v4.2.1 release.
+The actual macOS builds would be created on a Mac system.
+
+To build for macOS:
+1. Run the macOS build script on a Mac
+2. Replace this placeholder with the actual .zip file
+3. Update the README links accordingly
+
+Version: 4.2.1
+Platform: macOS (Portable)
+Date: July 7, 2025

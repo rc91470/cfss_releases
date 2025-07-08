@@ -1,28 +1,33 @@
-# CFSS Releases
+# CFSS (Copper/Fiber Serial Scanner) - Downloads
 
-This repository contains public releases of the Copper/Fiber Serial Scanner (CFSS) application.
+[![Latest Release](https://img.shields.io/github/v/release/rc91470/cfss_releases)](https://github.com/rc91470/cfss_releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/rc91470/cfss_releases/total)](https://github.com/rc91470/cfss_releases/releases)
 
-## Latest Release: v4.2.2
+A comprehensive copper and fiber serial scanning system for network cable testing and analysis.
 
-### Download
-- [CFSS v4.2.2 for Windows](v4.2.2/CFSS_v4.2.2_Windows_2025-07-08_14-39-50.zip)
+## 📥 Download Latest Version
 
-### Documentation
-- [Installation Guide](v4.2.2/INSTALLATION_GUIDE.md)
-- [Quick Reference](v4.2.2/QUICK_REFERENCE.md)
-- [README](v4.2.2/README.md)
+### Windows
+- **[Download Windows v4.2.2](v4.2.2/CFSS_v4.2.2_Windows_2025-07-08_14-39-50.zip)** (Latest - July 8, 2025)
+- **[Download Windows v4.2.1](v4.2.1/CFSS_v4.2.1_Windows_2025-07-07_22-04-35.zip)** (Previous)
 
-## System Requirements
+### macOS
+- **[Download macOS v4.2.1](v4.2.1/CFSS_v4.2.1_macOS.dmg.placeholder)** (Latest compatible - placeholder)
+- **[Download macOS Portable v4.2.1](v4.2.1/CFSS_v4.2.1_macOS.zip.placeholder)** (Extract and run - placeholder)
 
-- Windows 10 or later
-- No additional software installation required (standalone executable)
+## 🚀 Quick Start
 
-## Support
+1. **Download** the appropriate version for your operating system
+2. **Install** using the installer or extract the portable version
+3. **Run** the application
+4. **Follow** the [Installation Guide](documentation/installation_guide.md) for detailed setup
 
-This is a specialized tool for network infrastructure management.
+## 📚 Documentation
 
----
-*Last updated: Tue 07/08/2025*
+- **[Installation Guide](documentation/installation_guide.md)** - Complete setup instructions
+- **[User Guide](documentation/user_guide.md)** - How to use CFSS
+- **[Quick Reference](documentation/quick_reference.md)** - Common tasks and shortcuts
+- **[Troubleshooting](documentation/troubleshooting.md)** - Solutions to common issues
 
 ## 🔧 System Requirements
 
