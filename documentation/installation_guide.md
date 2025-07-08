@@ -1,128 +1,63 @@
 # CFSS Installation Guide
 
-This guide will help you install and set up CFSS (Copper/Fiber Serial Scanner) on your computer.4. **Configure** your cable scanning parameters
-5. **Start** your first network cable scan!
-## System Requirements
+## Quick Install
 
-### Windows
-- **Operating System**: Windows 10 or later (64-bit)
-- **Memory**: 4 GB RAM minimum, 8 GB recommended
-- **Storage**: 500 MB available disk space
-- **Additional**: .NET Framework 4.7.2 or later
-
-### macOS
-- **Operating System**: macOS 10.15 (Catalina) or later
-- **Memory**: 4 GB RAM minimum, 8 GB recommended
-- **Storage**: 500 MB available disk space
-- **Processor**: Intel or Apple Silicon
-
-## Installation Methods
-
-### Windows Installation
-
-#### Method 1: Windows Installer (Recommended)
-1. **Download** the Windows Installer from the [releases page](https://github.com/rc91470/cfss_releases/releases/latest)
-2. **Run** the installer as Administrator
-3. **Follow** the installation wizard steps
-4. **Launch** CFSS from the Start Menu or desktop shortcut
-
-#### Method 2: Portable Version
-1. **Download** the Windows Portable ZIP from the [releases page](https://github.com/rc91470/cfss_releases/releases/latest)
-2. **Extract** the ZIP file to your desired location
-3. **Run** `cfss_app.exe` from the extracted folder
-4. **Optional**: Create a desktop shortcut for easy access
-
-### macOS Installation
-
-#### Method 1: macOS App (Recommended)
-1. **Download** the macOS DMG from the [releases page](https://github.com/rc91470/cfss_releases/releases/latest)
-2. **Open** the DMG file
-3. **Drag** CFSS.app to your Applications folder
-4. **Launch** CFSS from Launchpad or Applications folder
-
-> **Note**: You may need to allow the app in System Preferences > Security & Privacy if you see a warning about an unidentified developer.
-
-#### Method 2: Portable Version
-1. **Download** the macOS ZIP from the [releases page](https://github.com/rc91470/cfss_releases/releases/latest)
-2. **Extract** the ZIP file to your desired location
-3. **Run** the CFSS application from the extracted folder
-
-## Initial Setup
-
-### First Launch
-1. **Start** CFSS application
-2. **Configure** your data directory (default: `Documents/CFSS_Data`)
-3. **Set up** SharePoint integration (if required)
-4. **Configure** scanning parameters for your network cables
-
-### SharePoint Configuration (Optional)
-If you need SharePoint integration:
-1. **Go to** Settings > SharePoint Configuration
-2. **Enter** your SharePoint URL and credentials
-3. **Test** the connection
-4. **Save** the configuration
-
-### Database Setup
-CFSS will automatically create its database on first run:
-- **Location**: `%APPDATA%/CFSS/cfss_app.db` (Windows) or `~/Library/Application Support/CFSS/cfss_app.db` (macOS)
-- **Backup**: Automatic backups are created in the `scan_backups` folder
-
-## Verification
-
-To verify your installation:
-1. **Launch** CFSS
-2. **Check** that the interface loads without errors
-3. **Test** basic functionality by creating a test scan of a network cable
-4. **Verify** that data is being saved correctly
+1. **Download** the latest release from [GitHub Releases](https://github.com/rc91470/cfss/releases)
+2. **Extract** the ZIP file
+3. **Move** CFSS.app to your Applications folder
+4. **Run** the app by double-clicking it
 
 ## Troubleshooting
 
-### Common Issues
+### ⚠️ "App is damaged and should be moved to the trash"
 
-#### Windows
-- **"Application failed to start"**: Install/update .NET Framework
-- **"Permission denied"**: Run as Administrator
-- **"Database error"**: Check write permissions to Documents folder
+This is a common macOS security message - the app isn't actually damaged! This happens because the app isn't signed with an Apple Developer Certificate.
 
-#### macOS
-- **"App can't be opened"**: Allow in System Preferences > Security & Privacy
-- **"Damaged app"**: Re-download from official source
-- **"Permission denied"**: Check file permissions
+**Quick Fix Options:**
 
-### Getting Help
+**Option 1: Command Line (Recommended)**
+```bash
+xattr -cr /Applications/CFSS.app
+```
+
+**Option 2: Right-click Method**
+1. Right-click CFSS.app → **Open**
+2. Click **Open** in the security dialog
+3. The app will be trusted for future runs
+
+**Option 3: System Settings**
+1. Go to **System Preferences** → **Security & Privacy** → **General**
+2. Click **Allow** next to the blocked app message
+
+### ⚠️ "Cannot verify developer" warning
+
+1. Right-click CFSS.app → **Open**
+2. Click **Open** when prompted
+3. The app will be trusted for future runs
+
+### 🔧 App won't launch
+
+1. Make sure the app is in your **Applications** folder
+2. Try running from Terminal: `open /Applications/CFSS.app`
+3. Check **Console.app** for error messages
+
+## System Requirements
+
+- macOS 10.14 (Mojave) or later
+- 100MB free disk space
+- No additional software required
+
+## What is CFSS?
+
+CFSS is a Circuit Finder Search System that helps you search and analyze circuit data efficiently with a modern, user-friendly interface.
+
+## Support
+
 If you encounter issues:
-1. **Check** the [Troubleshooting Guide](troubleshooting.md)
-2. **Review** the [User Guide](user_guide.md)
-3. **Search** existing [GitHub Issues](https://github.com/rc91470/cfss_releases/issues)
-4. **Create** a new issue with detailed information
+1. Check this guide first
+2. Look for similar issues in the [GitHub Issues](https://github.com/rc91470/cfss/issues)
+3. Create a new issue if needed
 
-## Updating
+## Privacy
 
-### Automatic Updates
-CFSS will check for updates automatically and notify you when a new version is available.
-
-### Manual Updates
-1. **Download** the latest version from the [releases page](https://github.com/rc91470/cfss_releases/releases/latest)
-2. **Close** CFSS completely
-3. **Install** the new version (will upgrade existing installation)
-4. **Launch** CFSS to verify the update
-
-## Uninstallation
-
-### Windows
-- **Installer version**: Use "Add or Remove Programs" in Windows Settings
-- **Portable version**: Simply delete the application folder
-
-### macOS
-- **App version**: Move CFSS.app to Trash
-- **Portable version**: Delete the application folder
-
-> **Note**: User data and settings are stored separately and will not be removed during uninstallation.
-
-## Next Steps
-
-After installation:
-1. **Read** the [User Guide](user_guide.md) for detailed usage instructions
-2. **Review** the [Quick Reference](quick_reference.md) for common tasks
-3. **Configure** your scanning parameters
-4. **Start** your first circuit scan!
+CFSS runs entirely on your computer - no data is sent to external servers.
