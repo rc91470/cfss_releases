@@ -16,6 +16,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Bug fixes will be listed here
 
+## [4.2.1] - 2025-07-07
+
+### Added
+- **Auto-updater**: Automatic update checking and installation from GitHub releases
+- User-friendly update dialog with download progress and automatic restart
+- Cross-platform update support for both Windows and macOS
+
+### Fixed
+- **UI Focus Issues**: Dialog windows now properly take focus when displayed
+- **Input Validation**: Input fields are disabled until data is loaded to prevent errors
+- **Field Clearing**: Input fields are properly cleared after SharePoint sync operations
+- User data preservation during updates (circuits, progress, scan states remain intact)
+
+### Changed
+- Updated to use cfss_releases repository for distribution and updates
+- Enhanced error handling and user feedback for update operations
+- Improved startup sequence with integrated update checking
+
 ## [4.2.0] - 2025-07-06
 
 ### Added
