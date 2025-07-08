@@ -8,10 +8,10 @@ A comprehensive copper and fiber serial scanning system for network cable testin
 ## 📥 Download Latest Version
 
 ### Windows
-- **[Download Windows Package](https://github.com/rc91470/cfss_releases/releases/latest/download/CFSS_v4.2.0_Windows.zip)** (Complete package)
+- **[Download Windows Package](https://github.com/rc91470/cfss_releases/releases/latest/download/CFSS_v4.2.1_Windows.zip)** (Complete package)
 
 ### macOS
-- **[Download macOS Package](https://github.com/rc91470/cfss_releases/releases/latest/download/CFSS-macOS-4.2.0.tar.gz)** (Complete package)
+- **[Download macOS Package](https://github.com/rc91470/cfss_releases/releases/latest/download/CFSS-macOS-4.2.1.tar.gz)** (Complete package)
 - **[Download macOS Fix Script](https://github.com/rc91470/cfss_releases/releases/latest/download/macos_fix.sh)** (If you see "damaged" app error)
 
 ## 🚀 Key Features
@@ -95,4 +95,14 @@ For security-related issues, please contact us privately rather than opening a p
 
 ---
 
-**Note**: This is the public release repository for CFSS. Source code is maintained in a private repository for security and intellectual property protection.
+## 📝 Repository Information
+
+**Note**: This is the public release repository for CFSS containing only:
+- ✅ Pre-built application binaries (Windows & macOS)
+- ✅ User documentation and installation guides  
+- ✅ Release notes and changelogs
+- ❌ **No source code** - maintained in private repository for security
+
+**For Users**: Download the appropriate binary package from [Releases](https://github.com/rc91470/cfss_releases/releases/latest) - no compilation required!
+
+**For Developers**: Source code access is restricted and managed separately for security and intellectual property protection.
