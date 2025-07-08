@@ -163,7 +163,7 @@ This guide helps you resolve common issues with CFSS (Copper/Fiber Serial Scanne
 
 If these solutions don't resolve your issue:
 
-1. **Search** existing [GitHub Issues](https://github.com/rc91470/cfss_releases/issues)
+1. **Search** existing [GitHub Issues](https://github.com/yourusername/cfss_releases/issues)
 2. **Create** a new issue with:
    - Detailed description of the problem
    - Steps to reproduce

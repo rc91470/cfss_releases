@@ -16,50 +16,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Bug fixes will be listed here
 
-## [4.2.1] - 2025-07-07
+## [4.2.0] - 2025-07-07
 
 ### Added
-- **Auto-updater**: Automatic update checking and installation from GitHub releases
-- User-friendly update dialog with download progress and automatic restart
-- Cross-platform update support for both Windows and macOS
-
-### Fixed
-- **UI Focus Issues**: Dialog windows now properly take focus when displayed
-- **Input Validation**: Input fields are disabled until data is loaded to prevent errors
-- **Field Clearing**: Input fields are properly cleared after SharePoint sync operations
-- User data preservation during updates (circuits, progress, scan states remain intact)
+- Enhanced copper and fiber cable scanning capabilities
+- Improved data export functionality for network cable testing
+- Better error handling and logging
+- Updated user interface with modern design
+- Support for additional cable types and standards
 
 ### Changed
-- Updated to use cfss_releases repository for distribution and updates
-- Enhanced error handling and user feedback for update operations
-- Improved startup sequence with integrated update checking
-
-## [4.2.0] - 2025-07-06
-
-### Added
-- **SharePoint Integration** - Streamlined CSV sync and data export functionality
-- **Better Progress Tracking** - Visual progress bars and comprehensive statistics
-- **Issue Management** - Track and resolve scanning discrepancies
-- **Cross-Platform Support** - Available for both macOS and Windows
-- **Serial Number Verification** - Scan jumper cable serials and compare against expected values
-- **Multiple Circuit Support** - Load and manage multiple network circuits from CSV files
-
-### Changed
-- **Improved UI** - Modern interface with better user experience
-- **Enhanced Performance** - Optimized for large CSV file handling
-- **Better Documentation** - Comprehensive guides included with download
+- Optimized scanning algorithms for better performance
+- Improved database handling and backup systems
+- Enhanced SharePoint integration
+- Updated documentation and user guides
 
 ### Fixed
-- **macOS Compatibility** - Fixed "damaged app" issues with proper signing
-- **Windows Stability** - Improved reliability on Windows 10/11
-- **CSV Loading** - Better handling of large CSV files
-- **Progress Tracking** - More accurate completion percentages
+- Resolved memory leaks during long scanning sessions
+- Fixed CSV export formatting issues
+- Corrected timezone handling in reports
+- Improved stability on macOS systems
 
-### Technical Details
-- **App Size**: 50MB for both platforms
-- **Archive Size**: 21MB (macOS), 22MB (Windows)
-- **Build Date**: July 6, 2025
-- **System Requirements**: Windows 10+ (64-bit), macOS 10.14+
+### Security
+- Enhanced data encryption for sensitive cable testing information
+- Improved authentication mechanisms
+- Updated third-party dependencies for security patches
 
 ## [4.1.0] - 2025-06-15
 
@@ -84,12 +65,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Download Links
 
-- **[Latest Release](https://github.com/rc91470/cfss_releases/releases/latest)**
-- **[All Releases](https://github.com/rc91470/cfss_releases/releases)**
+- **[Latest Release](https://github.com/yourusername/cfss_releases/releases/latest)**
+- **[All Releases](https://github.com/yourusername/cfss_releases/releases)**
 
 ## Support
 
 For support and questions:
 - Check the [Troubleshooting Guide](documentation/troubleshooting.md)
-- Report issues on [GitHub Issues](https://github.com/rc91470/cfss_releases/issues)
+- Report issues on [GitHub Issues](https://github.com/yourusername/cfss_releases/issues)
 - Review the [User Guide](documentation/user_guide.md)

@@ -7,7 +7,7 @@ $ErrorActionPreference = "Stop"
 
 # Configuration
 $PRIVATE_REPO = "c:\Users\rc914\RCcode\cfss_app"
-$PUBLIC_REPO = "c:\Users\rc914\RCcode\cfss_releases"  # Path to your public repo
+$PUBLIC_REPO = "c:\Users\rc914\RCcode\cfss_releases"  # You'll create this
 $VERSION = "v4.2.0"  # Update this for each release
 
 Write-Host "CFSS Release Automation Script" -ForegroundColor Green
