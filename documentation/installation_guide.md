@@ -21,13 +21,13 @@ This guide will help you install and set up CFSS (Copper/Fiber Serial Scanner) o
 ### Windows Installation
 
 #### Method 1: Windows Installer (Recommended)
-1. **Download** the Windows Installer from the [releases page](https://github.com/yourusername/cfss_releases/releases/latest)
+1. **Download** the Windows Installer from the [releases page](https://github.com/rc91470/cfss_releases/releases/latest)
 2. **Run** the installer as Administrator
 3. **Follow** the installation wizard steps
 4. **Launch** CFSS from the Start Menu or desktop shortcut
 
 #### Method 2: Portable Version
-1. **Download** the Windows Portable ZIP from the [releases page](https://github.com/yourusername/cfss_releases/releases/latest)
+1. **Download** the Windows Portable ZIP from the [releases page](https://github.com/rc91470/cfss_releases/releases/latest)
 2. **Extract** the ZIP file to your desired location
 3. **Run** `cfss_app.exe` from the extracted folder
 4. **Optional**: Create a desktop shortcut for easy access
@@ -35,7 +35,7 @@ This guide will help you install and set up CFSS (Copper/Fiber Serial Scanner) o
 ### macOS Installation
 
 #### Method 1: macOS App (Recommended)
-1. **Download** the macOS DMG from the [releases page](https://github.com/yourusername/cfss_releases/releases/latest)
+1. **Download** the macOS DMG from the [releases page](https://github.com/rc91470/cfss_releases/releases/latest)
 2. **Open** the DMG file
 3. **Drag** CFSS.app to your Applications folder
 4. **Launch** CFSS from Launchpad or Applications folder
@@ -43,7 +43,7 @@ This guide will help you install and set up CFSS (Copper/Fiber Serial Scanner) o
 > **Note**: You may need to allow the app in System Preferences > Security & Privacy if you see a warning about an unidentified developer.
 
 #### Method 2: Portable Version
-1. **Download** the macOS ZIP from the [releases page](https://github.com/yourusername/cfss_releases/releases/latest)
+1. **Download** the macOS ZIP from the [releases page](https://github.com/rc91470/cfss_releases/releases/latest)
 2. **Extract** the ZIP file to your desired location
 3. **Run** the CFSS application from the extracted folder
 
@@ -93,7 +93,7 @@ To verify your installation:
 If you encounter issues:
 1. **Check** the [Troubleshooting Guide](troubleshooting.md)
 2. **Review** the [User Guide](user_guide.md)
-3. **Search** existing [GitHub Issues](https://github.com/yourusername/cfss_releases/issues)
+3. **Search** existing [GitHub Issues](https://github.com/rc91470/cfss_releases/issues)
 4. **Create** a new issue with detailed information
 
 ## Updating
@@ -102,7 +102,7 @@ If you encounter issues:
 CFSS will check for updates automatically and notify you when a new version is available.
 
 ### Manual Updates
-1. **Download** the latest version from the [releases page](https://github.com/yourusername/cfss_releases/releases/latest)
+1. **Download** the latest version from the [releases page](https://github.com/rc91470/cfss_releases/releases/latest)
 2. **Close** CFSS completely
 3. **Install** the new version (will upgrade existing installation)
 4. **Launch** CFSS to verify the update

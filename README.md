@@ -1,19 +1,19 @@
 # CFSS (Copper/Fiber Serial Scanner) - Downloads
 
-[![Latest Release](https://img.shields.io/github/v/release/yourusername/cfss_releases)](https://github.com/yourusername/cfss_releases/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/yourusername/cfss_releases/total)](https://github.com/yourusername/cfss_releases/releases)
+[![Latest Release](https://img.shields.io/github/v/release/rc91470/cfss_releases)](https://github.com/rc91470/cfss_releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/rc91470/cfss_releases/total)](https://github.com/rc91470/cfss_releases/releases)
 
 A comprehensive copper and fiber serial scanning system for network cable testing and analysis.
 
 ## 📥 Download Latest Version
 
 ### Windows
-- **[Download Windows Installer](https://github.com/yourusername/cfss_releases/releases/latest/download/CFSS_v4.2.0_Windows_Installer.exe)** (Recommended)
-- **[Download Windows Portable](https://github.com/yourusername/cfss_releases/releases/latest/download/CFSS_v4.2.0_Windows_Portable.zip)** (No installation required)
+- **[Download Windows Installer](https://github.com/rc91470/cfss_releases/releases/latest/download/CFSS_v4.2.0_Windows_Installer.exe)** (Recommended)
+- **[Download Windows Portable](https://github.com/rc91470/cfss_releases/releases/latest/download/CFSS_v4.2.0_Windows_Portable.zip)** (No installation required)
 
 ### macOS
-- **[Download macOS App](https://github.com/yourusername/cfss_releases/releases/latest/download/CFSS_v4.2.0_macOS.dmg)** (Recommended)
-- **[Download macOS Portable](https://github.com/yourusername/cfss_releases/releases/latest/download/CFSS_v4.2.0_macOS.zip)** (Extract and run)
+- **[Download macOS App](https://github.com/rc91470/cfss_releases/releases/latest/download/CFSS_v4.2.0_macOS.dmg)** (Recommended)
+- **[Download macOS Portable](https://github.com/rc91470/cfss_releases/releases/latest/download/CFSS_v4.2.0_macOS.zip)** (Extract and run)
 
 ## 🚀 Quick Start
 
@@ -52,7 +52,7 @@ See [CHANGELOG.md](CHANGELOG.md) for a complete list of changes in each version.
 If you encounter any issues:
 
 1. **Check** the [Troubleshooting Guide](documentation/troubleshooting.md)
-2. **Search** existing [Issues](https://github.com/yourusername/cfss_releases/issues)
+2. **Search** existing [Issues](https://github.com/rc91470/cfss_releases/issues)
 3. **Create** a new issue with detailed information
 
 ## 📄 License

@@ -65,12 +65,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Download Links
 
-- **[Latest Release](https://github.com/yourusername/cfss_releases/releases/latest)**
-- **[All Releases](https://github.com/yourusername/cfss_releases/releases)**
+- **[Latest Release](https://github.com/rc91470/cfss_releases/releases/latest)**
+- **[All Releases](https://github.com/rc91470/cfss_releases/releases)**
 
 ## Support
 
 For support and questions:
 - Check the [Troubleshooting Guide](documentation/troubleshooting.md)
-- Report issues on [GitHub Issues](https://github.com/yourusername/cfss_releases/issues)
+- Report issues on [GitHub Issues](https://github.com/rc91470/cfss_releases/issues)
 - Review the [User Guide](documentation/user_guide.md)
