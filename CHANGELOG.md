@@ -16,31 +16,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Bug fixes will be listed here
 
-## [4.2.0] - 2025-07-07
+## [4.2.0] - 2025-07-06
 
 ### Added
-- Enhanced copper and fiber cable scanning capabilities
-- Improved data export functionality for network cable testing
-- Better error handling and logging
-- Updated user interface with modern design
-- Support for additional cable types and standards
+- **SharePoint Integration** - Streamlined CSV sync and data export functionality
+- **Better Progress Tracking** - Visual progress bars and comprehensive statistics
+- **Issue Management** - Track and resolve scanning discrepancies
+- **Cross-Platform Support** - Available for both macOS and Windows
+- **Serial Number Verification** - Scan jumper cable serials and compare against expected values
+- **Multiple Circuit Support** - Load and manage multiple network circuits from CSV files
 
 ### Changed
-- Optimized scanning algorithms for better performance
-- Improved database handling and backup systems
-- Enhanced SharePoint integration
-- Updated documentation and user guides
+- **Improved UI** - Modern interface with better user experience
+- **Enhanced Performance** - Optimized for large CSV file handling
+- **Better Documentation** - Comprehensive guides included with download
 
 ### Fixed
-- Resolved memory leaks during long scanning sessions
-- Fixed CSV export formatting issues
-- Corrected timezone handling in reports
-- Improved stability on macOS systems
+- **macOS Compatibility** - Fixed "damaged app" issues with proper signing
+- **Windows Stability** - Improved reliability on Windows 10/11
+- **CSV Loading** - Better handling of large CSV files
+- **Progress Tracking** - More accurate completion percentages
 
-### Security
-- Enhanced data encryption for sensitive cable testing information
-- Improved authentication mechanisms
-- Updated third-party dependencies for security patches
+### Technical Details
+- **App Size**: 50MB for both platforms
+- **Archive Size**: 21MB (macOS), 22MB (Windows)
+- **Build Date**: July 6, 2025
+- **System Requirements**: Windows 10+ (64-bit), macOS 10.14+
 
 ## [4.1.0] - 2025-06-15
 
