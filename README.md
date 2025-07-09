@@ -1,6 +1,6 @@
 # CFSS - Copper/Fiber Serial Scanner
 
-![CFSS Logo](https://img.shields.io/badge/CFSS-v4.2.3-blue?style=for-the-badge&logo=desktop)
+![CFSS Logo](https://img.shields.io/badge/CFSS-v4.2.2-blue?style=for-the-badge&logo=desktop)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
@@ -8,17 +8,34 @@
 
 ---
 
-## �� Quick Download - Latest Version (v4.2.3)
+## �� Quick Download - Latest Stable Release (v4.2.2)
 
 ### Windows
-[![Download Windows](https://img.shields.io/badge/Download-Windows-0078D4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/CFSS_v4.2.3_Windows.zip)
+[![Download Windows](https://img.shields.io/badge/Download-Windows-0078D4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.2/CFSS_v4.2.2_Windows.zip)
 
-**File:** `CFSS_v4.2.3_Windows.zip` (~25MB)
+**File:** `CFSS_v4.2.2_Windows.zip` (~25MB)
 
 ### macOS
-[![Download macOS](https://img.shields.io/badge/Download-macOS-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/CFSS-macOS-4.2.3.tar.gz)
+[![Download macOS](https://img.shields.io/badge/Download-macOS-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.2/CFSS-macOS-4.2.2.tar.gz)
 
-**File:** `CFSS-macOS-4.2.3.tar.gz` (~22MB)
+**File:** `CFSS-macOS-4.2.2.tar.gz` (~22MB)
+
+---
+
+## 🔄 Version 4.2.3 Status
+
+### macOS v4.2.3
+✅ **READY** - Built and available in `releases/macos/v4.2.3/`
+- **File:** `CFSS-macOS-4.2.3.tar.gz`
+- **Features:** Enhanced DPI scaling, auto-updater fixes, dialog improvements
+
+### Windows v4.2.3
+❌ **NEEDS BUILD** - Windows maintainer needs to build from v4.2.3 source
+- **Source:** Available in `v4.2.3/src/`
+- **Build Script:** `v4.2.3/build_windows.bat`
+- **Target:** `CFSS_v4.2.3_Windows.zip`
+
+> **Note:** v4.2.3 will not be released until both platforms are ready to ensure version synchronization.
 
 ---
 
@@ -26,7 +43,7 @@
 
 ### ✨ New Features
 - **Enhanced DPI scaling** - Perfect display on high-resolution screens
-- **Auto-updater functionality** - Checks for updates from cfss_releases repository
+- **Auto-updater fixes** - Now correctly points to cfss_releases repository
 - **Smart dialog layouts** - Responsive UI that adapts to screen size
 - **Enhanced SharePoint integration** - Improved CSV sync and data export
 - **Issue tracking system** - Comprehensive problem tracking and resolution notes
@@ -36,18 +53,18 @@
 - Fixed font scaling issues on high-DPI displays
 - Improved button layout and dialog sizing
 - Enhanced error handling and user feedback
-- Fixed auto-updater pointing to correct repository
+- Fixed auto-updater repository references
 
 ---
 
 ## 📱 Installation
 
-### Windows
+### Windows (Current: v4.2.2)
 1. **Download** the ZIP file from the link above
 2. **Extract** to your desired location
-3. **Run** `CFSS_v4.2.3.exe`
+3. **Run** `CFSS_v4.2.2.exe`
 
-### macOS
+### macOS (Current: v4.2.2)
 1. **Download** the TAR.GZ file from the link above
 2. **Extract** the file (double-click or use `tar -xzf`)
 3. **Move** `CFSS.app` to your Applications folder
@@ -59,7 +76,7 @@ If you get a security warning, **don't click "Move to Trash"**. Instead:
 **Option 1: Quick Fix (Copy & Paste)**
 ```bash
 # Download and run the fix script
-curl -L https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/macos_fix.sh -o macos_fix.sh
+curl -L https://github.com/rc91470/cfss_releases/releases/download/v4.2.2/macos_fix.sh -o macos_fix.sh
 chmod +x macos_fix.sh
 ./macos_fix.sh
 ```
@@ -77,7 +94,7 @@ open /Applications/CFSS.app
 ```
 
 **Option 3: Download Fix Script**
-[![Download Fix Script](https://img.shields.io/badge/Download-macOS%20Fix-FF6B35?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/macos_fix.sh)
+[![Download Fix Script](https://img.shields.io/badge/Download-macOS%20Fix-FF6B35?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.2/macos_fix.sh)
 
 ---
 
@@ -96,19 +113,22 @@ cfss_releases/
 │   └── user_guide/
 ├── releases/                    # Platform-specific releases
 │   ├── windows/
-│   │   ├── latest/              # Latest Windows build
-│   │   └── v4.2.3/              # Version-specific builds
+│   │   ├── latest/              # Latest Windows build (v4.2.2)
+│   │   ├── v4.2.2/              # Stable Windows build
+│   │   └── v4.2.3/              # ❌ NEEDS BUILD
 │   └── macos/
-│       ├── latest/              # Latest macOS build
-│       └── v4.2.3/              # Version-specific builds
+│       ├── latest/              # Latest macOS build (v4.2.2)
+│       ├── v4.2.2/              # Stable macOS build
+│       └── v4.2.3/              # ✅ READY
 ├── scripts/                     # Build and release automation
-└── v4.2.3/                     # Source and build files for v4.2.3
-    ├── src/                     # Source code snapshot
-    ├── build/                   # Build artifacts
-    └── build_macos.sh           # macOS build script
+└── v4.2.3/                     # Version 4.2.3 source & builds
+    ├── src/                     # Source code for v4.2.3
+    ├── build/                   # macOS build artifacts
+    ├── build_macos.sh           # macOS build script (completed)
+    └── build_windows.bat        # Windows build script (needs execution)
 ```
 
-### 🔧 Platform Separation
+### �� Platform Separation
 - **Windows builds**: `releases/windows/`
 - **macOS builds**: `releases/macos/`
 - **Shared scripts**: `scripts/`
@@ -139,15 +159,24 @@ CFSS includes an auto-updater that:
 
 ## 🤝 For Developers
 
-### Building Releases
-1. **Windows**: Use build scripts in `releases/windows/`
-2. **macOS**: Use build scripts in `releases/macos/`
-3. **Testing**: Test builds in respective platform directories
-4. **Release**: Create GitHub release with both platform files
+### Building v4.2.3
+**macOS**: ✅ Complete
+**Windows**: ❌ Needs Windows maintainer to:
+1. Navigate to `v4.2.3/`
+2. Run `build_windows.bat`
+3. Copy results to `releases/windows/v4.2.3/`
+4. Update `releases/windows/latest/`
+
+### Version Synchronization Rules
+- ✅ **DO**: Build from the same source code version
+- ✅ **DO**: Keep both platforms in sync
+- ✅ **DO**: Test both platforms before release
+- ❌ **DON'T**: Release with mismatched versions
+- ❌ **DON'T**: Update version numbers until both platforms are ready
 
 ### Repository Rules
 - ✅ **DO**: Modify only your platform's directories
-- ✅ **DO**: Test builds before releasing
+- ✅ **DO**: Use the provided source code in version directories
 - ✅ **DO**: Update documentation when adding features
 - ❌ **DON'T**: Modify other platform's build files
 - ❌ **DON'T**: Commit source code changes (use cfss repository)
@@ -159,8 +188,8 @@ CFSS includes an auto-updater that:
 
 | Version | Date | Windows | macOS | Notes |
 |---------|------|---------|-------|-------|
-| v4.2.3  | 2025-07-08 | ✅ | ✅ | DPI scaling, auto-updater fixes |
-| v4.2.2  | 2025-07-05 | ✅ | ❌ | SharePoint integration |
+| v4.2.3  | TBD | ❌ Needs Build | ✅ Ready | DPI scaling, auto-updater fixes |
+| v4.2.2  | 2025-07-05 | ✅ | ✅ | SharePoint integration |
 | v4.2.1  | 2025-06-28 | ✅ | ❌ | Issue tracking |
 | v4.2.0  | 2025-06-15 | ✅ | ✅ | Major release |
 
@@ -185,4 +214,4 @@ MIT License - See the development repository for full license details.
 
 ---
 
-**Latest Release:** [v4.2.3](https://github.com/rc91470/cfss_releases/releases/latest) | **Development:** [cfss](https://github.com/rc91470/cfss) | **Issues:** [Report Bug](https://github.com/rc91470/cfss_releases/issues)
+**Latest Stable:** [v4.2.2](https://github.com/rc91470/cfss_releases/releases/latest) | **Development:** [cfss](https://github.com/rc91470/cfss) | **Issues:** [Report Bug](https://github.com/rc91470/cfss_releases/issues)
