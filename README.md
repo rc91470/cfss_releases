@@ -6,18 +6,17 @@
 
 ---
 
-## 🚀 Quick Download - Latest Release
+## 🚀 Quick Download - Latest Release (v4.2.3)
 
 ### macOS v4.2.3 ✅ AVAILABLE
 [![Download macOS](https://img.shields.io/badge/Download-macOS%20v4.2.3-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/CFSS-macOS-4.2.3.tar.gz)
 
 **File:** `CFSS-macOS-4.2.3.tar.gz` (~22MB)
 
-### Windows v4.2.2 (Current)
-[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.2.2-0078D4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.2/CFSS_v4.2.2_Windows.zip)
+### Windows v4.2.3 ✅ AVAILABLE
+[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.2.3-0078D4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/CFSS_v4.2.3_Windows.zip)
 
-**File:** `CFSS_v4.2.2_Windows.zip` (~25MB)  
-**Note:** Windows v4.2.3 is being prepared and will be available soon. Serial Scanner
+**File:** `CFSS_v4.2.3_Windows.zip` (~23MB) Serial Scanner
 
 ![CFSS Logo](https://img.shields.io/badge/CFSS-v4.2.2-blue?style=for-the-badge&logo=desktop)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-success?style=for-the-badge)
@@ -43,20 +42,24 @@
 
 ## 🔄 Version Status
 
-### macOS v4.2.3
-✅ **RELEASED** - Available for download and auto-update
-- **File:** `CFSS-macOS-4.2.3.tar.gz`
-- **Features:** Enhanced DPI scaling, auto-updater fixes, dialog improvements
-- **Auto-updater:** Active and working
+### Both Platforms: v4.2.3
+✅ **COMPLETE RELEASE** - Both Windows and macOS available for download and auto-update
 
-### Windows v4.2.3
-⚠️ **IN DEVELOPMENT** - Windows maintainer building from v4.2.3 source
-- **Source:** Available in `v4.2.3/src/`
-- **Build Script:** `v4.2.3/build_windows.bat`
-- **Target:** `CFSS_v4.2.3_Windows.zip`
-- **Status:** Windows users can continue using v4.2.2 until v4.2.3 is ready
+#### Features in v4.2.3:
+- **Enhanced DPI scaling** - Perfect display on high-resolution screens
+- **Auto-updater fixes** - Now correctly points to cfss_releases repository
+- **Smart dialog layouts** - Responsive UI that adapts to screen size
+- **Enhanced SharePoint integration** - Improved CSV sync and data export
+- **Issue tracking system** - Comprehensive problem tracking and resolution notes
+- **Smart progress migration** - Preserves scan progress when updating circuit data
 
-> **Note:** macOS users get updates immediately. Windows users will receive v4.2.3 when the Windows build is complete.
+#### Bug Fixes:
+- Fixed font scaling issues on high-DPI displays
+- Improved button layout and dialog sizing
+- Enhanced error handling and user feedback
+- Fixed auto-updater repository references
+
+> **Both platforms built from identical source code for complete feature parity and version synchronization.**
 
 ---
 
@@ -80,10 +83,10 @@
 
 ## 📱 Installation
 
-### Windows (Current: v4.2.2)
+### Windows (Current: v4.2.3)
 1. **Download** the ZIP file from the link above
 2. **Extract** to your desired location
-3. **Run** `CFSS_v4.2.2.exe`
+3. **Run** `CFSS_v4.2.3.exe`
 
 ### macOS (Current: v4.2.3)
 1. **Download** the TAR.GZ file from the link above
@@ -134,9 +137,9 @@ cfss_releases/
 │   └── user_guide/
 ├── releases/                    # Platform-specific releases
 │   ├── windows/
-│   │   ├── latest/              # Latest Windows build (v4.2.2)
-│   │   ├── v4.2.2/              # Stable Windows build
-│   │   └── v4.2.3/              # ⚠️ NEEDS BUILD
+│   │   ├── latest/              # Latest Windows build (v4.2.3)
+│   │   ├── v4.2.2/              # Previous Windows build
+│   │   └── v4.2.3/              # ✅ RELEASED
 │   └── macos/
 │       ├── latest/              # Latest macOS build (v4.2.3)
 │       ├── v4.2.2/              # Previous macOS build
