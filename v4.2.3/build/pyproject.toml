@@ -1,0 +1,13 @@
+[tool.pyright]
+typeCheckingMode = "off"
+reportMissingImports = false
+reportMissingTypeStubs = false
+reportGeneralTypeIssues = false
+reportOptionalMemberAccess = false
+reportOptionalSubscript = false
+reportOptionalIterable = false
+reportOptionalCall = false
+reportOptionalOperand = false
+reportOptionalContextManager = false
+reportUntypedFunctionDecorator = false
+reportUntypedClassDecorator = false
