@@ -1,4 +1,23 @@
-# CFSS - Copper/Fiber Serial Scanner
+# ![CFSS Logo](https://img.shields.io/badge/CFSS-v4.2.3-blue?style=for-the-badge&logo=desktop)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+**Professional fiber optic and copper circuit scanning application with auto-updater, SharePoint integration, and comprehensive reporting capabilities.**
+
+---
+
+## 🚀 Quick Download - Latest Release
+
+### macOS v4.2.3 ✅ AVAILABLE
+[![Download macOS](https://img.shields.io/badge/Download-macOS%20v4.2.3-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/CFSS-macOS-4.2.3.tar.gz)
+
+**File:** `CFSS-macOS-4.2.3.tar.gz` (~22MB)
+
+### Windows v4.2.2 (Current)
+[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.2.2-0078D4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.2/CFSS_v4.2.2_Windows.zip)
+
+**File:** `CFSS_v4.2.2_Windows.zip` (~25MB)  
+**Note:** Windows v4.2.3 is being prepared and will be available soon. Serial Scanner
 
 ![CFSS Logo](https://img.shields.io/badge/CFSS-v4.2.2-blue?style=for-the-badge&logo=desktop)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-success?style=for-the-badge)
@@ -22,20 +41,22 @@
 
 ---
 
-## 🔄 Version 4.2.3 Status
+## 🔄 Version Status
 
 ### macOS v4.2.3
-✅ **READY** - Built and available in `releases/macos/v4.2.3/`
+✅ **RELEASED** - Available for download and auto-update
 - **File:** `CFSS-macOS-4.2.3.tar.gz`
 - **Features:** Enhanced DPI scaling, auto-updater fixes, dialog improvements
+- **Auto-updater:** Active and working
 
 ### Windows v4.2.3
-❌ **NEEDS BUILD** - Windows maintainer needs to build from v4.2.3 source
+⚠️ **IN DEVELOPMENT** - Windows maintainer building from v4.2.3 source
 - **Source:** Available in `v4.2.3/src/`
 - **Build Script:** `v4.2.3/build_windows.bat`
 - **Target:** `CFSS_v4.2.3_Windows.zip`
+- **Status:** Windows users can continue using v4.2.2 until v4.2.3 is ready
 
-> **Note:** v4.2.3 will not be released until both platforms are ready to ensure version synchronization.
+> **Note:** macOS users get updates immediately. Windows users will receive v4.2.3 when the Windows build is complete.
 
 ---
 
@@ -64,7 +85,7 @@
 2. **Extract** to your desired location
 3. **Run** `CFSS_v4.2.2.exe`
 
-### macOS (Current: v4.2.2)
+### macOS (Current: v4.2.3)
 1. **Download** the TAR.GZ file from the link above
 2. **Extract** the file (double-click or use `tar -xzf`)
 3. **Move** `CFSS.app` to your Applications folder
@@ -76,7 +97,7 @@ If you get a security warning, **don't click "Move to Trash"**. Instead:
 **Option 1: Quick Fix (Copy & Paste)**
 ```bash
 # Download and run the fix script
-curl -L https://github.com/rc91470/cfss_releases/releases/download/v4.2.2/macos_fix.sh -o macos_fix.sh
+curl -L https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/macos_fix.sh -o macos_fix.sh
 chmod +x macos_fix.sh
 ./macos_fix.sh
 ```
@@ -94,7 +115,7 @@ open /Applications/CFSS.app
 ```
 
 **Option 3: Download Fix Script**
-[![Download Fix Script](https://img.shields.io/badge/Download-macOS%20Fix-FF6B35?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.2/macos_fix.sh)
+[![Download Fix Script](https://img.shields.io/badge/Download-macOS%20Fix-FF6B35?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/macos_fix.sh)
 
 ---
 
@@ -115,11 +136,11 @@ cfss_releases/
 │   ├── windows/
 │   │   ├── latest/              # Latest Windows build (v4.2.2)
 │   │   ├── v4.2.2/              # Stable Windows build
-│   │   └── v4.2.3/              # ❌ NEEDS BUILD
+│   │   └── v4.2.3/              # ⚠️ NEEDS BUILD
 │   └── macos/
-│       ├── latest/              # Latest macOS build (v4.2.2)
-│       ├── v4.2.2/              # Stable macOS build
-│       └── v4.2.3/              # ✅ READY
+│       ├── latest/              # Latest macOS build (v4.2.3)
+│       ├── v4.2.2/              # Previous macOS build
+│       └── v4.2.3/              # ✅ RELEASED
 ├── scripts/                     # Build and release automation
 └── v4.2.3/                     # Version 4.2.3 source & builds
     ├── src/                     # Source code for v4.2.3
