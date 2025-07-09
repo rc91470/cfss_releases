@@ -1,0 +1,53 @@
+2025-07-05 17:48:47,217 - INFO - Database connection established to /Users/richardcoleman/VSCode/CFSS/cfss_app.db
+2025-07-05 17:48:47,223 - INFO - Processing CSV: /Users/richardcoleman/VSCode/CFSS/data/CORP.csv
+2025-07-05 17:48:47,224 - INFO - Scan progress backed up to: /Users/richardcoleman/VSCode/CFSS/scan_backups/scan_progress_backup_corp_20250705_174847.json
+2025-07-05 17:48:47,224 - INFO - Migrating scan progress for updated circuit: corp
+2025-07-05 17:48:47,224 - INFO - No existing scan progress found for corp
+2025-07-05 17:48:47,251 - INFO - Circuit corp updated but no scan progress could be migrated
+2025-07-05 17:48:47,252 - INFO - Processing CSV: /Users/richardcoleman/VSCode/CFSS/data/RSW-CS.csv
+2025-07-05 17:48:47,254 - INFO - Scan progress backed up to: /Users/richardcoleman/VSCode/CFSS/scan_backups/scan_progress_backup_rsw_cs_20250705_174847.json
+2025-07-05 17:48:47,254 - INFO - Migrating scan progress for updated circuit: rsw_cs
+2025-07-05 17:48:47,254 - INFO - No existing scan progress found for rsw_cs
+2025-07-05 17:48:47,278 - INFO - Circuit rsw_cs updated but no scan progress could be migrated
+2025-07-05 17:48:47,280 - INFO - Processing CSV: /Users/richardcoleman/VSCode/CFSS/data/EB-DR.csv
+2025-07-05 17:48:47,283 - INFO - Scan progress backed up to: /Users/richardcoleman/VSCode/CFSS/scan_backups/scan_progress_backup_eb_dr_20250705_174847.json
+2025-07-05 17:48:47,283 - INFO - Migrating scan progress for updated circuit: eb_dr
+2025-07-05 17:48:47,283 - INFO - No existing scan progress found for eb_dr
+2025-07-05 17:48:47,382 - INFO - Circuit eb_dr updated but no scan progress could be migrated
+2025-07-05 17:48:47,384 - INFO - Processing CSV: /Users/richardcoleman/VSCode/CFSS/data/CSW-RSW.csv
+2025-07-05 17:48:47,386 - INFO - Scan progress backed up to: /Users/richardcoleman/VSCode/CFSS/scan_backups/scan_progress_backup_csw_rsw_20250705_174847.json
+2025-07-05 17:48:47,386 - INFO - Migrating scan progress for updated circuit: csw_rsw
+2025-07-05 17:48:47,386 - INFO - No existing scan progress found for csw_rsw
+2025-07-05 17:48:47,748 - INFO - Circuit csw_rsw updated but no scan progress could be migrated
+2025-07-05 17:48:47,753 - INFO - Processing CSV: /Users/richardcoleman/VSCode/CFSS/data/MA-XSW.csv
+2025-07-05 17:48:47,755 - INFO - Scan progress backed up to: /Users/richardcoleman/VSCode/CFSS/scan_backups/scan_progress_backup_ma_xsw_20250705_174847.json
+2025-07-05 17:48:47,755 - INFO - Migrating scan progress for updated circuit: ma_xsw
+2025-07-05 17:48:47,755 - INFO - No existing scan progress found for ma_xsw
+2025-07-05 17:48:48,859 - INFO - Circuit ma_xsw updated but no scan progress could be migrated
+2025-07-05 17:48:48,860 - INFO - Processing CSV: /Users/richardcoleman/VSCode/CFSS/data/BB-DR.csv
+2025-07-05 17:48:48,862 - INFO - Scan progress backed up to: /Users/richardcoleman/VSCode/CFSS/scan_backups/scan_progress_backup_bb_dr_20250705_174848.json
+2025-07-05 17:48:48,862 - INFO - Migrating scan progress for updated circuit: bb_dr
+2025-07-05 17:48:48,862 - INFO - No existing scan progress found for bb_dr
+2025-07-05 17:48:48,891 - INFO - Circuit bb_dr updated but no scan progress could be migrated
+2025-07-05 17:48:48,894 - INFO - Processing CSV: /Users/richardcoleman/VSCode/CFSS/data/EB-MA.csv
+2025-07-05 17:48:48,896 - INFO - Scan progress backed up to: /Users/richardcoleman/VSCode/CFSS/scan_backups/scan_progress_backup_eb_ma_20250705_174848.json
+2025-07-05 17:48:48,896 - INFO - Migrating scan progress for updated circuit: eb_ma
+2025-07-05 17:48:48,896 - INFO - No existing scan progress found for eb_ma
+2025-07-05 17:48:49,581 - INFO - Circuit eb_ma updated but no scan progress could be migrated
+2025-07-05 17:48:49,740 - INFO - No scan state found for bb_dr/bb_dr_jumper1. Initializing.
+2025-07-06 21:05:36,648 - INFO - Database connection established to /Users/richardcoleman/VSCode/CFSS/cfss_app.db
+2025-07-06 21:05:36,650 - INFO - No CSV files found in data directory - starting with empty circuit list
+2025-07-06 21:09:11,258 - INFO - Database connection closed.
+2025-07-06 21:09:19,486 - INFO - Database connection established to /Users/richardcoleman/VSCode/CFSS/cfss_app.db
+2025-07-06 21:09:19,487 - INFO - No CSV files found in data directory - clearing existing circuits
+2025-07-06 21:09:19,488 - INFO - Dropping table: sqlite_sequence
+2025-07-06 21:09:19,488 - ERROR - Query failed: DROP TABLE IF EXISTS sqlite_sequence | Params: () | Error: table sqlite_sequence may not be dropped
+2025-07-06 21:09:19,488 - ERROR - Error clearing circuit data: table sqlite_sequence may not be dropped
+2025-07-06 21:09:45,186 - INFO - Database connection closed.
+2025-07-06 21:11:26,406 - INFO - Database connection established to /Users/richardcoleman/VSCode/CFSS/cfss_app.db
+2025-07-06 21:11:26,409 - INFO - No CSV files found in data directory - clearing existing circuits
+2025-07-06 21:11:26,409 - INFO - Dropping table: sqlite_sequence
+2025-07-06 21:11:26,409 - ERROR - Query failed: DROP TABLE IF EXISTS sqlite_sequence | Params: () | Error: table sqlite_sequence may not be dropped
+2025-07-06 21:11:26,409 - ERROR - Error clearing circuit data: table sqlite_sequence may not be dropped
+2025-07-06 21:11:26,409 - INFO - No circuits loaded - user will need to load CSV files
+2025-07-06 21:11:54,524 - INFO - Database connection closed.
