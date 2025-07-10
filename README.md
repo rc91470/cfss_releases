@@ -1,4 +1,4 @@
-# ![CFSS Logo](https://img.shields.io/badge/CFSS-v4.2.3-blue?style=for-the-badge&logo=desktop)
+# ![CFSS Logo](https://img.shields.io/badge/CFSS-v4.2.4-blue?style=for-the-badge&logo=desktop)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
@@ -6,76 +6,53 @@
 
 ---
 
-## 🚀 Quick Download - Latest Release (v4.2.3)
+## 🚀 Quick Download - Latest Release (v4.2.4)
 
-### macOS v4.2.3 ✅ AVAILABLE
-[![Download macOS](https://img.shields.io/badge/Download-macOS%20v4.2.3-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/CFSS-macOS-4.2.3.tar.gz)
+### macOS v4.2.4 ✅ AVAILABLE
+[![Download macOS](https://img.shields.io/badge/Download-macOS%20v4.2.4-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/raw/master/releases/CFSS-macOS-4.2.4.tar.gz)
 
-**File:** `CFSS-macOS-4.2.3.tar.gz` (~22MB)
+**File:** `CFSS-macOS-4.2.4.tar.gz` (~22MB)
+**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/raw/master/releases/CFSS-macOS-4.2.4.tar.gz.sha256)
 
-### Windows v4.2.3 ✅ AVAILABLE
-[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.2.3-0078D4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/CFSS_v4.2.3_Windows.zip)
-
-**File:** `CFSS_v4.2.3_Windows.zip` (~23MB) Serial Scanner
-
-![CFSS Logo](https://img.shields.io/badge/CFSS-v4.2.2-blue?style=for-the-badge&logo=desktop)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
-**Professional fiber optic and copper circuit scanning application with auto-updater, SharePoint integration, and comprehensive reporting capabilities.**
-
----
-
-## �� Quick Download - Latest Stable Release (v4.2.2)
-
-### Windows
-[![Download Windows](https://img.shields.io/badge/Download-Windows-0078D4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.2/CFSS_v4.2.2_Windows.zip)
-
-**File:** `CFSS_v4.2.2_Windows.zip` (~25MB)
-
-### macOS
-[![Download macOS](https://img.shields.io/badge/Download-macOS-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.2/CFSS-macOS-4.2.2.tar.gz)
-
-**File:** `CFSS-macOS-4.2.2.tar.gz` (~22MB)
+### Windows v4.2.4 🔄 COMING SOON
+[![Windows Build Status](https://img.shields.io/badge/Windows-Build%20Pending-orange?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases)
 
 ---
 
 ## 🔄 Version Status
 
-### Both Platforms: v4.2.3
-✅ **COMPLETE RELEASE** - Both Windows and macOS available for download and auto-update
+### Current Release: v4.2.4
+✅ **macOS COMPLETE** - Available for download and auto-update  
+🔄 **Windows PENDING** - Build from same source coming soon
 
-#### Features in v4.2.3:
-- **Enhanced DPI scaling** - Perfect display on high-resolution screens
-- **Auto-updater fixes** - Now correctly points to cfss_releases repository
-- **Smart dialog layouts** - Responsive UI that adapts to screen size
-- **Enhanced SharePoint integration** - Improved CSV sync and data export
-- **Issue tracking system** - Comprehensive problem tracking and resolution notes
-- **Smart progress migration** - Preserves scan progress when updating circuit data
+#### Features in v4.2.4:
+- **High-DPI dialog support** - Fixed, resizable dialogs for all screens
+- **Authoritative cross-platform version** - Both platforms from identical source
+- **Auto-updater reliability** - Robust versioning and update process
+- **Removed all problematic DPI scaling** - Fixed sizing issues
 
 #### Bug Fixes:
-- Fixed font scaling issues on high-DPI displays
-- Improved button layout and dialog sizing
+- Fixed all dialog sizing and scaling issues on high-DPI screens
+- Improved button layout and dialog usability across platforms
 - Enhanced error handling and user feedback
 - Fixed auto-updater repository references
+- Removed get_scaled_size() calls causing dialog problems
 
 > **Both platforms built from identical source code for complete feature parity and version synchronization.**
 
 ---
 
-## 📋 What's New in v4.2.3
+## 📋 What's New in v4.2.4
 
 ### ✨ New Features
-- **Enhanced DPI scaling** - Perfect display on high-resolution screens
-- **Auto-updater fixes** - Now correctly points to cfss_releases repository
-- **Smart dialog layouts** - Responsive UI that adapts to screen size
-- **Enhanced SharePoint integration** - Improved CSV sync and data export
-- **Issue tracking system** - Comprehensive problem tracking and resolution notes
-- **Smart progress migration** - Preserves scan progress when updating circuit data
+- **High-DPI dialog support** - Fixed, resizable dialogs for all screens
+- **Authoritative version** - Both platforms built from identical source
+- **Auto-updater reliability** - Robust versioning and update process
+- **All previous DPI scaling removed**
 
 ### 🔧 Bug Fixes
-- Fixed font scaling issues on high-DPI displays
-- Improved button layout and dialog sizing
+- Fixed all dialog sizing and scaling issues
+- Improved button layout and dialog usability
 - Enhanced error handling and user feedback
 - Fixed auto-updater repository references
 
@@ -83,12 +60,12 @@
 
 ## 📱 Installation
 
-### Windows (Current: v4.2.3)
-1. **Download** the ZIP file from the link above
+### Windows (v4.2.4 - Coming Soon)
+1. **Download** the ZIP file when available
 2. **Extract** to your desired location
-3. **Run** `CFSS_v4.2.3.exe`
+3. **Run** `CFSS_v4.2.4.exe`
 
-### macOS (Current: v4.2.3)
+### macOS (Current: v4.2.4)
 1. **Download** the TAR.GZ file from the link above
 2. **Extract** the file (double-click or use `tar -xzf`)
 3. **Move** `CFSS.app` to your Applications folder
@@ -97,11 +74,13 @@
 #### macOS "App is Damaged" Error?
 If you get a security warning, **don't click "Move to Trash"**. Instead:
 
-**Option 1: Quick Fix (Copy & Paste)**
+**Option 1: Quick Fix (Download Script)**
 ```bash
 # Download and run the fix script
-curl -L https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/macos_fix.sh -o macos_fix.sh
+curl -L https://github.com/rc91470/cfss_releases/raw/master/releases/macos_fix.sh -o macos_fix.sh
 chmod +x macos_fix.sh
+./macos_fix.sh
+```
 ./macos_fix.sh
 ```
 
@@ -118,7 +97,7 @@ open /Applications/CFSS.app
 ```
 
 **Option 3: Download Fix Script**
-[![Download Fix Script](https://img.shields.io/badge/Download-macOS%20Fix-FF6B35?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/macos_fix.sh)
+[![Download Fix Script](https://img.shields.io/badge/Download-macOS%20Fix-FF6B35?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/macos_fix.sh)
 
 ---
 
@@ -137,11 +116,11 @@ cfss_releases/
 │   └── user_guide/
 ├── releases/                    # Platform-specific releases
 │   ├── windows/
-│   │   ├── latest/              # Latest Windows build (v4.2.3)
+│   │   ├── latest/              # Latest Windows build (v4.2.4)
 │   │   ├── v4.2.2/              # Previous Windows build
 │   │   └── v4.2.3/              # ✅ RELEASED
 │   └── macos/
-│       ├── latest/              # Latest macOS build (v4.2.3)
+│       ├── latest/              # Latest macOS build (v4.2.4)
 │       ├── v4.2.2/              # Previous macOS build
 │       └── v4.2.3/              # ✅ RELEASED
 ├── scripts/                     # Build and release automation
@@ -212,8 +191,8 @@ CFSS includes an auto-updater that:
 
 | Version | Date | Windows | macOS | Notes |
 |---------|------|---------|-------|-------|
-| v4.2.3  | TBD | ❌ Needs Build | ✅ Ready | DPI scaling, auto-updater fixes |
-| v4.2.2  | 2025-07-05 | ✅ | ✅ | SharePoint integration |
+| v4.2.4  | 2025-07-09 | 🔄 Build Pending | ✅ Available | High-DPI fixes, unified codebase |
+| v4.2.3  | 2025-07-05 | ✅ | ✅ | SharePoint integration |
 | v4.2.1  | 2025-06-28 | ✅ | ❌ | Issue tracking |
 | v4.2.0  | 2025-06-15 | ✅ | ✅ | Major release |
 
