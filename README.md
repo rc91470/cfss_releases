@@ -14,11 +14,11 @@
 **File:** `CFSS-macOS-4.2.4.tar.gz` (~22MB)
 **SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/raw/master/releases/CFSS-macOS-4.2.4.tar.gz.sha256)
 
-### Windows v4.2.4 ⚠️ BUILD REQUIRED
-[![Windows Build Status](https://img.shields.io/badge/Windows-Build%20Required-red?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/tree/main/releases/windows/v4.2.4)
+### Windows v4.2.4 ✅ AVAILABLE
+[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.2.4-0078d4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/raw/main/releases/windows/v4.2.4/CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip)
 
-**Status:** Windows maintainer needs to build v4.2.4 from main branch  
-**Instructions:** [Windows Build Guide](releases/windows/v4.2.4/README_Windows_Build_Instructions.md)
+**File:** `CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip` (~22MB)
+**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/raw/main/releases/windows/v4.2.4/CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip.sha256)
 
 ---
 
@@ -26,7 +26,7 @@
 
 ### Current Release: v4.2.4
 ✅ **macOS COMPLETE** - Available for download and auto-update  
-⚠️ **Windows REQUIRED** - Build needed from v4.2.4 source
+✅ **Windows COMPLETE** - Available for download and auto-update
 
 #### Features in v4.2.4:
 - **High-DPI dialog support** - Fixed, resizable dialogs for all screens
