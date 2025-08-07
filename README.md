@@ -9,16 +9,17 @@
 ## 🚀 Quick Download - Latest Release (v4.2.4)
 
 ### macOS v4.2.4 ✅ AVAILABLE
-[![Download macOS](https://img.shields.io/badge/Download-macOS%20v4.2.4-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/raw/main/releases/CFSS-macOS-4.2.4.tar.gz)
+[![Download macOS](https://img.shields.io/badge/Download-macOS%20v4.2.4-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/CFSS-macOS-4.2.4.tar.gz)
 
 **File:** `CFSS-macOS-4.2.4.tar.gz` (~22MB)  
-**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/raw/main/releases/CFSS-macOS-4.2.4.tar.gz.sha256)
+**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/CFSS-macOS-4.2.4.tar.gz.sha256)  
+**Alternative:** [Browse all releases](https://github.com/rc91470/cfss_releases/releases/tag/v4.2.4)
 
 ### Windows v4.2.4 ✅ AVAILABLE
-[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.2.4-0078d4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/raw/main/releases/windows/v4.2.4/CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip)
+[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.2.4-0078d4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip)
 
 **File:** `CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip` (~25MB)  
-**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/raw/main/releases/windows/v4.2.4/CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip.sha256)  
+**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip.sha256)  
 **Instructions:** [Windows Installation Guide](releases/windows/v4.2.4/README_Windows_v4.2.4.md)
 
 ---
