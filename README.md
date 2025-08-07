@@ -9,16 +9,17 @@
 ## 🚀 Quick Download - Latest Release (v4.2.4)
 
 ### macOS v4.2.4 ✅ AVAILABLE
-[![Download macOS](https://img.shields.io/badge/Download-macOS%20v4.2.4-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/raw/master/releases/CFSS-macOS-4.2.4.tar.gz)
+[![Download macOS](https://img.shields.io/badge/Download-macOS%20v4.2.4-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/raw/main/releases/CFSS-macOS-4.2.4.tar.gz)
 
-**File:** `CFSS-macOS-4.2.4.tar.gz` (~22MB)
-**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/raw/master/releases/CFSS-macOS-4.2.4.tar.gz.sha256)
+**File:** `CFSS-macOS-4.2.4.tar.gz` (~22MB)  
+**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/raw/main/releases/CFSS-macOS-4.2.4.tar.gz.sha256)
 
 ### Windows v4.2.4 ✅ AVAILABLE
 [![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.2.4-0078d4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/raw/main/releases/windows/v4.2.4/CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip)
 
-**File:** `CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip` (~22MB)
-**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/raw/main/releases/windows/v4.2.4/CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip.sha256)
+**File:** `CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip` (~25MB)  
+**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/raw/main/releases/windows/v4.2.4/CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip.sha256)  
+**Instructions:** [Windows Installation Guide](releases/windows/v4.2.4/README_Windows_v4.2.4.md)
 
 ---
 
@@ -63,10 +64,10 @@
 
 ## 📱 Installation
 
-### Windows (v4.2.4 - Coming Soon)
-1. **Download** the ZIP file when available
-2. **Extract** to your desired location
-3. **Run** `CFSS_v4.2.4.exe`
+### Windows (v4.2.4 - Available Now)
+1. **Download** the ZIP file using the link above
+2. **Extract** to your desired location  
+3. **Run** `CFSS_v4.2.4.exe` from the extracted folder
 
 ### macOS (Current: v4.2.4)
 1. **Download** the TAR.GZ file from the link above
@@ -80,10 +81,8 @@ If you get a security warning, **don't click "Move to Trash"**. Instead:
 **Option 1: Quick Fix (Download Script)**
 ```bash
 # Download and run the fix script
-curl -L https://github.com/rc91470/cfss_releases/raw/master/releases/macos_fix.sh -o macos_fix.sh
+curl -L https://github.com/rc91470/cfss_releases/raw/main/releases/macos_fix.sh -o macos_fix.sh
 chmod +x macos_fix.sh
-./macos_fix.sh
-```
 ./macos_fix.sh
 ```
 
@@ -100,7 +99,7 @@ open /Applications/CFSS.app
 ```
 
 **Option 3: Download Fix Script**
-[![Download Fix Script](https://img.shields.io/badge/Download-macOS%20Fix-FF6B35?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/macos_fix.sh)
+[![Download Fix Script](https://img.shields.io/badge/Download-macOS%20Fix-FF6B35?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/raw/main/releases/macos_fix.sh)
 
 ---
 
@@ -165,13 +164,11 @@ CFSS includes an auto-updater that:
 
 ## 🤝 For Developers
 
-### Building v4.2.3
-**macOS**: ✅ Complete
-**Windows**: ❌ Needs Windows maintainer to:
-1. Navigate to `v4.2.3/`
-2. Run `build_windows.bat`
-3. Copy results to `releases/windows/v4.2.3/`
-4. Update `releases/windows/latest/`
+### Building v4.2.4
+**macOS**: ✅ Complete - Available for download  
+**Windows**: ✅ Complete - Available for download
+
+Both platforms are now built and available from the same v4.2.4 source code.
 
 ### Version Synchronization Rules
 - ✅ **DO**: Build from the same source code version
@@ -194,7 +191,7 @@ CFSS includes an auto-updater that:
 
 | Version | Date | Windows | macOS | Notes |
 |---------|------|---------|-------|-------|
-| v4.2.4  | 2025-07-09 | 🔄 Build Pending | ✅ Available | High-DPI fixes, unified codebase |
+| v4.2.4  | 2025-07-09 | ✅ Available | ✅ Available | High-DPI fixes, unified codebase |
 | v4.2.3  | 2025-07-05 | ✅ | ✅ | SharePoint integration |
 | v4.2.1  | 2025-06-28 | ✅ | ❌ | Issue tracking |
 | v4.2.0  | 2025-06-15 | ✅ | ✅ | Major release |
