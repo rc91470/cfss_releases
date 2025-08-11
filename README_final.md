@@ -16,11 +16,11 @@
 **Alternative:** [Browse all releases](https://github.com/rc91470/cfss_releases/releases/tag/v4.2.4)
 
 ### Windows v4.3.0 ✅ AVAILABLE
-[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.3.0-0078d4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/CFSS_v4.2.4_Windows_2025-07-09_21-18-59.zip)
+[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.3.0-0078d4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/releases/download/v4.3.0/CFSS_v4.3.0_Windows_2025-08-11_15-51.zip)
 
-**File:** `CFSS_v4.3.0_Windows_2025-08-11_15-51.zip` (~25MB)  
-**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/releases/download/v4.3.0/CFSS_v4.3.0_Windows_2025-07-09_21-18-59.zip.sha256)  
-**Instructions:** [Windows Installation Guide](releases/windows/v4.2.4/README_Windows_v4.2.4.md)
+**File:** \`CFSS_v4.3.0_Windows_2025-08-11_15-51.zip\` (~40MB)  
+**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/releases/download/v4.3.0/CFSS_v4.3.0_Windows_2025-08-11_15-51.zip.sha256)  
+**Instructions:** [Windows Installation Guide](releases/windows/v4.3.0/README_Windows_v4.3.0.md)
 
 ---
 
@@ -30,7 +30,7 @@ Current Release: Windows v4.3.0, macOS v4.2.4
 ✅ **macOS COMPLETE** - Available for download and auto-update  
 ✅ **Windows COMPLETE** - Available for download and auto-update
 
-#### Features in v4.2.4:
+#### Features in v4.3.0 (Windows):
 - **High-DPI dialog support** - Fixed, resizable dialogs for all screens
 - **Authoritative cross-platform version** - Both platforms from identical source
 - **Auto-updater reliability** - Robust versioning and update process
@@ -47,7 +47,7 @@ Current Release: Windows v4.3.0, macOS v4.2.4
 
 ---
 
-## 📋 What's New in v4.2.4
+## 📋 What\'s New in v4.3.0 (Windows)
 
 ### ✨ New Features
 - **High-DPI dialog support** - Fixed, resizable dialogs for all screens
