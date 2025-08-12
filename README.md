@@ -1,4 +1,4 @@
-# CFSS Circuit Scanner v4.3.10 (Windows) | v4.2.3 (macOS)
+# CFSS Circuit Scanner v4.3.10 (Windows) | v4.2.4 (macOS)
 
 Professional fiber optic and copper circuit scanning application with auto-updater.
 
@@ -10,12 +10,12 @@ Professional fiber optic and copper circuit scanning application with auto-updat
 File: `CFSS_v4.3.10.exe` (~38MB)
 Instructions: Direct executable - no extraction required
 
-### macOS v4.2.3
-[Download macOS](https://github.com/rc91470/cfss_releases/releases/download/v4.2.3/CFSS-macOS-4.2.3.tar.gz)
+### macOS v4.2.4
+[Download macOS](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/CFSS-macOS-4.2.4.tar.gz)
 
-File: `CFSS-macOS-4.2.3.tar.gz` (21MB)
+File: `CFSS-macOS-4.2.4.tar.gz` (~21MB)
 
-**Note:** macOS v4.3.10 build is in progress. Current stable version is v4.2.3.
+**Note:** macOS v4.3.10 build is in progress. Current stable version is v4.2.4.
 
 ## Features in Windows v4.3.10
 - XSR Circuit Support - XSR circuits now follow CSW rules with Port 1 location columns
@@ -23,7 +23,8 @@ File: `CFSS-macOS-4.2.3.tar.gz` (21MB)
 - Version Synchronization - Fixed duplicate update prompts
 - Streamlined Build Process - Simplified development and release workflow
 
-## macOS v4.2.3 Features
+## macOS v4.2.4 Features
+- Authoritative Cross-Platform Release with comprehensive improvements
 - Enhanced DPI scaling for high-resolution displays
 - Auto-updater fixes with proper repository references
 - Smart dialog layouts with responsive UI
@@ -37,10 +38,10 @@ File: `CFSS-macOS-4.2.3.tar.gz` (21MB)
 2. Run the executable directly - no extraction required
 3. Auto-updater will handle future updates seamlessly
 
-### macOS (v4.2.3)
+### macOS (v4.2.4)
 1. Download the TAR.GZ file from the link above
 2. Extract the file (double-click or use `tar -xzf`)
-3. Move CCFSS.app` to your Applications folder
+3. Move `CFSS.app` to your Applications folder
 4. Run the app
 
 If you get a security warning, run:
@@ -67,4 +68,4 @@ open /Applications/CFSS.app
 
 ---
 
-Latest Stable: [Windows v4.3.10](https://github.com/rc91470/cfss_releases/releases/latest) | [macOS v4.2.3](https://github.com/rc91470/cfss_releases/releases/tag/v4.2.3) | Development: [cfss](https://github.com/rc91470/cfss)
+Latest Stable: [Windows v4.3.10](https://github.com/rc91470/cfss_releases/releases/latest) | [macOS v4.2.4](https://github.com/rc91470/cfss_releases/releases/tag/v4.2.4) | Development: [cfss](https://github.com/rc91470/cfss)
