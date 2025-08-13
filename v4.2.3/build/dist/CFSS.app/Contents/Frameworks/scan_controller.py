@@ -1,1 +1,0 @@
-../Resources/scan_controller.py
