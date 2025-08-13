@@ -31,7 +31,7 @@ except ImportError:
     logging.warning("Auto-updater not available - missing dependencies")
 
 # Application version
-APP_VERSION = "v4.2.3"  # Increment for next version
+APP_VERSION = "v4.4.0"  # Enhanced auto-updater with sounds folder validation
 
 pygame.mixer.init()
 
