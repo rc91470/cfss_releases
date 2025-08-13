@@ -50,14 +50,19 @@
 
 ---
 
-## 📋 What's New in v4.4.0
+## 📋 What's New in v4.4.1
 
-### 🔧 Enhanced Auto-Updater
+### � Critical Fixes
+- **FIXED:** Serial number synchronization between save and display functions
+- **FIXED:** Data inconsistency issues where displayed data differed from saved data
+- This was a critical bug that could cause scan results to be inconsistent
+
+### �🔧 Enhanced Auto-Updater
 - **Component Validation**: Automatically checks for missing critical folders and files
 - **Sounds Folder Detection**: Ensures audio feedback files are present (no more Windows popups!)
 - **ZIP File Support**: Proper handling of compressed update packages
 - **Missing Component Restoration**: Automatically restores critical folders from update archives
-- **Nested Directory Handling**: Correctly extracts updates regardless of archive structure
+- **GitHub Integration**: Full compatibility with GitHub releases API for seamless updates
 
 ### 🎵 Audio Feedback System
 - **match.mp3**: Green ring feedback for successful matches
@@ -66,37 +71,25 @@
 - **Windows Popup Fix**: No more system error dialogs when audio files missing
 
 ### 🛠️ Technical Improvements
+- **Data Integrity**: Fixed serial number logic synchronization throughout application
 - **Enhanced Error Handling**: Better user feedback during update process
 - **Version Synchronization**: Proper version display in application interface
 - **Cross-Platform Updates**: Unified update system for Windows and macOS
-- **Backup and Restore**: Automatic backup of critical components before updates
-
-### ✨ New Features
-- **High-DPI dialog support** - Fixed, resizable dialogs for all screens
-- **Authoritative version** - Both platforms built from identical source
-- **Auto-updater reliability** - Robust versioning and update process
-- **All previous DPI scaling removed**
-
-### 🔧 Bug Fixes
-- Fixed all dialog sizing and scaling issues
-- Improved button layout and dialog usability
-- Enhanced error handling and user feedback
-- Fixed auto-updater repository references
 
 ---
 
 ## 📱 Installation
 
-### Windows (v4.2.4 - Available Now)
-1. **Download** the ZIP file using the link above
-2. **Extract** to your desired location  
-3. **Run** `CFSS_v4.2.4.exe` from the extracted folder
+### Windows (v4.4.1 - Latest)
+1. **Download** the executable using the link above: `CFSS_v4.4.1_Windows.exe`
+2. **Run** the executable directly - no installation required
+3. **Auto-updater** will handle future updates automatically
 
-### macOS (Current: v4.2.4)
-1. **Download** the TAR.GZ file from the link above
+### macOS (v4.2.4 - Latest Stable)
+1. **Download** the TAR.GZ file from the link above: `CFSS-macOS-4.2.4.tar.gz`
 2. **Extract** the file (double-click or use `tar -xzf`)
 3. **Move** `CFSS.app` to your Applications folder
-4. **Run** the app
+4. **Run** the app - auto-updater will handle future updates
 
 #### macOS "App is Damaged" Error?
 If you get a security warning, **don't click "Move to Trash"**. Instead:
@@ -214,10 +207,10 @@ Both platforms are now built and available from the same v4.2.4 source code.
 
 | Version | Date | Windows | macOS | Notes |
 |---------|------|---------|-------|-------|
-| v4.2.4  | 2025-07-09 | ✅ Available | ✅ Available | High-DPI fixes, unified codebase |
-| v4.2.3  | 2025-07-05 | ✅ | ✅ | SharePoint integration |
-| v4.2.1  | 2025-06-28 | ✅ | ❌ | Issue tracking |
-| v4.2.0  | 2025-06-15 | ✅ | ✅ | Major release |
+| v4.4.1  | 2025-08-13 | ✅ Latest | - | Critical serial number bug fix |
+| v4.2.4  | 2025-07-09 | ✅ | ✅ Latest | High-DPI fixes, unified codebase |
+
+*Showing current supported versions only. See [CHANGELOG.md](CHANGELOG.md) for complete version history.*
 
 ---
 
@@ -240,4 +233,4 @@ MIT License - See the development repository for full license details.
 
 ---
 
-**Latest Stable:** [v4.2.2](https://github.com/rc91470/cfss_releases/releases/latest) | **Development:** [cfss](https://github.com/rc91470/cfss) | **Issues:** [Report Bug](https://github.com/rc91470/cfss_releases/issues)
+**Latest Release:** [v4.4.1](https://github.com/rc91470/cfss_releases/releases/latest) | **Development:** [cfss](https://github.com/rc91470/cfss) | **Issues:** [Report Bug](https://github.com/rc91470/cfss_releases/issues)

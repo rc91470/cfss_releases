@@ -67,7 +67,7 @@ If you can't see the buttons clearly:
 ## 🔗 Need More Help?
 
 - **GitHub Issues**: https://github.com/rc91470/cfss/issues
-- **Release Page**: https://github.com/rc91470/cfss/releases/tag/v4.2.0
+- **Release Page**: https://github.com/rc91470/cfss_releases/releases/latest
 - **Documentation**: Check README.md in the repository
 
 ---

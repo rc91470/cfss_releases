@@ -7,7 +7,7 @@ If you see "CFSS.app is damaged and can't be opened. You should move it to the T
 ### Method 1: Use the Fix Script (Easiest)
 
 1. **Download the fix script** from the GitHub release assets:
-   - Go to: https://github.com/rc91470/cfss/releases/tag/v4.2.0
+   - Go to: https://github.com/rc91470/cfss_releases/releases/latest
    - Download **macos_fix.sh**
 
 2. **Make it executable and run it**:
@@ -130,7 +130,7 @@ chmod +x macos_fix.sh
 ## 🔗 Need More Help?
 
 - **GitHub Issues**: https://github.com/rc91470/cfss/issues
-- **Release Page**: https://github.com/rc91470/cfss/releases/tag/v4.2.0
+- **Release Page**: https://github.com/rc91470/cfss_releases/releases/latest
 - **Documentation**: Check README.md in the repository
 
 ---
