@@ -1,29 +1,29 @@
-# CFSS Circuit Scanner v4.3.10 (Windows) | v4.2.4 (macOS)
+﻿# CFSS Circuit Scanner v4.3.10 (Windows) | v4.2.4 (macOS)
 
 Professional fiber optic and copper circuit scanning application with auto-updater.
 
 ## Quick Download - Latest Release
 
-### Windows v4.3.10
+### Windows v4.3.11
 [Download Windows](https://github.com/rc91470/cfss_releases/releases/download/v4.3.10/CFSS_v4.3.10.exe)
 
 File: `CFSS_v4.3.10.exe` (~38MB)
 Instructions: Direct executable - no extraction required
 
-### macOS v4.2.4
+### macOS v4.3.11
 [Download macOS](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/CFSS-macOS-4.2.4.tar.gz)
 
 File: `CFSS-macOS-4.2.4.tar.gz` (~21MB)
 
-**Note:** macOS v4.3.10 build is in progress. Current stable version is v4.2.4.
+**Note:** macOS v4.3.11 build is in progress. Current stable version is v4.2.4.
 
-## Features in Windows v4.3.10
+## Features in Windows v4.3.11
 - XSR Circuit Support - XSR circuits now follow CSW rules with Port 1 location columns
 - Enhanced Auto-updater - Seamless updates with improved user experience
 - Version Synchronization - Fixed duplicate update prompts
 - Streamlined Build Process - Simplified development and release workflow
 
-## macOS v4.2.4 Features
+## macOS v4.3.11 Features
 - Authoritative Cross-Platform Release with comprehensive improvements
 - Enhanced DPI scaling for high-resolution displays
 - Auto-updater fixes with proper repository references
@@ -68,4 +68,5 @@ open /Applications/CFSS.app
 
 ---
 
-Latest Stable: [Windows v4.3.10](https://github.com/rc91470/cfss_releases/releases/latest) | [macOS v4.2.4](https://github.com/rc91470/cfss_releases/releases/tag/v4.2.4) | Development: [cfss](https://github.com/rc91470/cfss)
+Latest Stable: [Windows v4.3.11](https://github.com/rc91470/cfss_releases/releases/latest) | [macOS v4.3.11](https://github.com/rc91470/cfss_releases/releases/tag/v4.2.4) | Development: [cfss](https://github.com/rc91470/cfss)
+
