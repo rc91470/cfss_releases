@@ -1,0 +1,11 @@
+CFSS v4.2.4 macOS Release Checksums
+====================================
+
+Files:
+- CFSS-macOS-4.2.4.tar.gz (Main release package)
+- CFSS-macOS-4.2.4.tar.gz.sha256 (SHA256 checksum)
+
+Generated: July 2025
+Version: v4.2.4 (Latest stable macOS release)
+
+Note: Windows users should download v4.4.1 for latest features and bug fixes.

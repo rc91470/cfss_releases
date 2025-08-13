@@ -1,6 +1,11 @@
+CFSS v4.4.1 Windows Release Checksums
+=======================================
 
-Hash                                                             Path          
-----                                                             ----          
-01F533DA3D002885927CCE85CFFBDEE3EBAE47FE66EA144255A3EC9AB5052EF6 C:\Users\rc...
+Files:
+- CFSS_v4.4.1_Windows.exe (Direct executable)
+- CFSS_v4.4.1_Windows_2025-08-13_14-15-44.zip (Package with executable)
 
+Generated: August 13, 2025
+Version: v4.4.1
 
+CRITICAL BUG FIX: Serial number synchronization between save and display functions

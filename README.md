@@ -1,4 +1,4 @@
-﻿# ![CFSS Logo](https://img.shields.io/badge/CFSS-v4.2.4-blue?style=for-the-badge&logo=desktop)
+﻿# ![CFSS Logo](https://img.shields.io/badge/CFSS-v4.4.1-blue?style=for-the-badge&logo=desktop)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 Quick Download - Latest Release (v4.4.0)
+## 🚀 Quick Download - Latest Release (v4.4.1)
 
 ### macOS v4.2.4 ✅ AVAILABLE
 [![Download macOS](https://img.shields.io/badge/Download-macOS%20v4.2.4-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/CFSS-macOS-4.2.4.tar.gz)
@@ -15,22 +15,23 @@
 **SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/CFSS-macOS-4.2.4.tar.gz.sha256)  
 **Alternative:** [Browse all releases](https://github.com/rc91470/cfss_releases/releases/tag/v4.2.4)
 
-### Windows v4.4.0 ✅ AVAILABLE
-[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.4.0-0078d4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/releases/download/v4.4.0/CFSS_v4.4.0_FINAL_Windows.zip)
+### Windows v4.4.1 ✅ AVAILABLE
+[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.4.1-0078d4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/raw/main/v4.4.1/CFSS_v4.4.1_Windows_2025-08-13_14-15-44.zip)
 
-**File:** `CFSS_v4.4.0_FINAL_Windows.zip` (~40MB)  
-**SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/releases/download/v4.4.0/CFSS_v4.4.0_FINAL_Windows.zip.sha256)  
-**Instructions:** [Windows Installation Guide](releases/windows/v4.4.0/README_Windows_v4.4.0.md)
+**File:** `CFSS_v4.4.1_Windows_2025-08-13_14-15-44.zip` (~40MB)  
+**Executable:** `CFSS_v4.4.1_Windows.exe`  
+**Direct Download:** [CFSS_v4.4.1_Windows.exe](https://github.com/rc91470/cfss_releases/raw/main/v4.4.1/CFSS_v4.4.1_Windows.exe)
 
 ---
 
 ## 🔄 Version Status
 
-### Current Release: v4.4.0
+### Current Release: v4.4.1
 ✅ **Windows COMPLETE** - Available for download and auto-update  
 ✅ **macOS STABLE** - v4.2.4 Available for download and auto-update
 
-#### Features in v4.4.0:
+#### Features in v4.4.1:
+- **CRITICAL FIX** - Serial number synchronization between save and display functions
 - **Enhanced Auto-Updater** - Component validation and restoration
 - **Sounds Folder Validation** - Fixes Windows popup issues with proper audio feedback
 - **ZIP File Handling** - Proper update file management and extraction
@@ -38,6 +39,7 @@
 - **Cross-platform Compatibility** - Both Windows and macOS support
 
 #### Bug Fixes:
+- **FIXED:** Serial number mismatch in save functions causing data inconsistencies
 - Fixed Windows popup errors when sounds folder missing
 - Enhanced auto-updater now validates and restores missing components
 - Improved ZIP file extraction and nested directory handling
