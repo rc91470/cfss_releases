@@ -1,4 +1,4 @@
-﻿# ![CFSS Logo](https://img.shields.io/badge/CFSS-v4.4.1-blue?style=for-the-badge&logo=desktop)
+# ![CFSS Logo](https://img.shields.io/badge/CFSS-v4.5.0-blue?style=for-the-badge&logo=desktop)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
@@ -6,71 +6,71 @@
 
 ---
 
-## 🚀 Quick Download - Latest Release (v4.4.1)
+## ?? Quick Download - Latest Release (v4.5.0)
 
-### macOS v4.2.4 ✅ AVAILABLE
+### macOS v4.2.4 ? AVAILABLE
 [![Download macOS](https://img.shields.io/badge/Download-macOS%20v4.2.4-000000?style=for-the-badge&logo=apple)](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/CFSS-macOS-4.2.4.tar.gz)
 
 **File:** `CFSS-macOS-4.2.4.tar.gz` (~22MB)  
 **SHA256:** [Checksum](https://github.com/rc91470/cfss_releases/releases/download/v4.2.4/CFSS-macOS-4.2.4.tar.gz.sha256)  
 **Alternative:** [Browse all releases](https://github.com/rc91470/cfss_releases/releases/tag/v4.2.4)
 
-### Windows v4.4.1 ✅ AVAILABLE
-[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.4.1-0078d4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/raw/main/v4.4.1/CFSS_v4.4.1_Windows_2025-08-13_14-15-44.zip)
+### Windows v4.5.0 ? AVAILABLE
+[![Download Windows](https://img.shields.io/badge/Download-Windows%20v4.5.0-0078d4?style=for-the-badge&logo=windows)](https://github.com/rc91470/cfss_releases/releases/download/v4.5.0-windows/CFSS_v4.5.0.exe
 
-**File:** `CFSS_v4.4.1_Windows_2025-08-13_14-15-44.zip` (~40MB)  
-**Executable:** `CFSS_v4.4.1_Windows.exe`  
-**Direct Download:** [CFSS_v4.4.1_Windows.exe](https://github.com/rc91470/cfss_releases/raw/main/v4.4.1/CFSS_v4.4.1_Windows.exe)
+**File:** `CFSS_v4.5.0_Windows_2025-08-13_18-14-33.zip` (~38MB)  
+**Executable:** `CFSS_v4.5.0_Windows.exe`  
+**Direct Download:** [CFSS_v4.5.0_Windows.exe](https://github.com/rc91470/cfss_releases/releases/download/v4.5.0-windows/CFSS_v4.5.0.exe
 
 ---
 
-## 🔄 Version Status
+## ?? Version Status
 
-### Current Release: v4.4.1
-✅ **Windows COMPLETE** - Available for download and auto-update  
-✅ **macOS STABLE** - v4.2.4 Available for download and auto-update
+### Current Release: v4.5.0
+? **Windows COMPLETE** - Available for download and auto-update  
+? **macOS STABLE** - v4.2.4 Available for download and auto-update
 
-#### Features in v4.4.1:
-- **CRITICAL FIX** - Serial number synchronization between save and display functions
-- **Enhanced Auto-Updater** - Component validation and restoration
-- **Sounds Folder Validation** - Fixes Windows popup issues with proper audio feedback
-- **ZIP File Handling** - Proper update file management and extraction
-- **Missing Component Detection** - Automatically restores critical folders and files
-- **Cross-platform Compatibility** - Both Windows and macOS support
+#### Features in v4.5.0:
+- **NO MORE STARTUP POPUPS** - Clean first-run experience without validation dialogs
+- **SILENT COMPONENT RESTORATION** - Missing files handled automatically during updates
+- **STREAMLINED VALIDATION** - Technical checks moved to update process only
+- **IMPROVED USER EXPERIENCE** - No more confusing technical questions for end users
+- **CLEANED UP REQUIREMENTS** - Removed unnecessary data/README.txt validation
+- **BETTER ERROR HANDLING** - Silent logging instead of user-facing error messages
 
 #### Bug Fixes:
-- **FIXED:** Serial number mismatch in save functions causing data inconsistencies
-- Fixed Windows popup errors when sounds folder missing
-- Enhanced auto-updater now validates and restores missing components
-- Improved ZIP file extraction and nested directory handling
-- Better error handling and user feedback during updates
-- Proper version display in application interface
+- **FIXED:** Startup validation popups showing technical messages to end users
+- **FIXED:** Component validation running at wrong time (startup instead of updates)
+- **FIXED:** Unnecessary data/README.txt file requirement causing validation failures
+- **FIXED:** Auto-updater showing confusing dialogs for missing components on fresh installs
+- **FIXED:** Technical error messages bothering users who just want to run the app
+- Enhanced logging and silent error handling for better user experience
 
 > **Both platforms built from identical source code for complete feature parity and version synchronization.**
 
 ---
 
-## 📋 What's New in v4.4.1
+## ?? What's New in v4.5.0
 
-### � Critical Fixes
+### ? Critical Fixes
 - **FIXED:** Serial number synchronization between save and display functions
 - **FIXED:** Data inconsistency issues where displayed data differed from saved data
 - This was a critical bug that could cause scan results to be inconsistent
 
-### �🔧 Enhanced Auto-Updater
+### ??? Enhanced Auto-Updater
 - **Component Validation**: Automatically checks for missing critical folders and files
 - **Sounds Folder Detection**: Ensures audio feedback files are present (no more Windows popups!)
 - **ZIP File Support**: Proper handling of compressed update packages
 - **Missing Component Restoration**: Automatically restores critical folders from update archives
 - **GitHub Integration**: Full compatibility with GitHub releases API for seamless updates
 
-### 🎵 Audio Feedback System
+### ?? Audio Feedback System
 - **match.mp3**: Green ring feedback for successful matches
 - **nonmatch.mp3**: Red ring feedback for failed matches  
 - **complete.mp3**: Completion sound for finished scans
 - **Windows Popup Fix**: No more system error dialogs when audio files missing
 
-### 🛠️ Technical Improvements
+### ??? Technical Improvements
 - **Data Integrity**: Fixed serial number logic synchronization throughout application
 - **Enhanced Error Handling**: Better user feedback during update process
 - **Version Synchronization**: Proper version display in application interface
@@ -78,10 +78,10 @@
 
 ---
 
-## 📱 Installation
+## ?? Installation
 
-### Windows (v4.4.1 - Latest)
-1. **Download** the executable using the link above: `CFSS_v4.4.1_Windows.exe`
+### Windows (v4.5.0 - Latest)
+1. **Download** the executable using the link above: `CFSS_v4.5.0_Windows.exe`
 2. **Run** the executable directly - no installation required
 3. **Auto-updater** will handle future updates automatically
 
@@ -119,37 +119,37 @@ open /Applications/CFSS.app
 
 ---
 
-## 🏗️ Repository Structure
+## ??? Repository Structure
 
 This is a **distribution-only** repository. For development, see [cfss](https://github.com/rc91470/cfss).
 
-### 📁 Directory Layout
+### ?? Directory Layout
 ```
 cfss_releases/
-├── README.md                    # This file
-├── CHANGELOG.md                 # Version history
-├── documentation/               # User guides and help
-│   ├── installation/
-│   ├── troubleshooting/
-│   └── user_guide/
-├── releases/                    # Platform-specific releases
-│   ├── windows/
-│   │   ├── latest/              # Latest Windows build (v4.2.4)
-│   │   ├── v4.2.2/              # Previous Windows build
-│   │   └── v4.2.3/              # ✅ RELEASED
-│   └── macos/
-│       ├── latest/              # Latest macOS build (v4.2.4)
-│       ├── v4.2.2/              # Previous macOS build
-│       └── v4.2.3/              # ✅ RELEASED
-├── scripts/                     # Build and release automation
-└── v4.2.3/                     # Version 4.2.3 source & builds
-    ├── src/                     # Source code for v4.2.3
-    ├── build/                   # macOS build artifacts
-    ├── build_macos.sh           # macOS build script (completed)
-    └── build_windows.bat        # Windows build script (needs execution)
++-- README.md                    # This file
++-- CHANGELOG.md                 # Version history
++-- documentation/               # User guides and help
+�   +-- installation/
+�   +-- troubleshooting/
+�   +-- user_guide/
++-- releases/                    # Platform-specific releases
+�   +-- windows/
+�   �   +-- latest/              # Latest Windows build (v4.2.4)
+�   �   +-- v4.2.2/              # Previous Windows build
+�   �   +-- v4.2.3/              # ? RELEASED
+�   +-- macos/
+�       +-- latest/              # Latest macOS build (v4.2.4)
+�       +-- v4.2.2/              # Previous macOS build
+�       +-- v4.2.3/              # ? RELEASED
++-- scripts/                     # Build and release automation
++-- v4.2.3/                     # Version 4.2.3 source & builds
+    +-- src/                     # Source code for v4.2.3
+    +-- build/                   # macOS build artifacts
+    +-- build_macos.sh           # macOS build script (completed)
+    +-- build_windows.bat        # Windows build script (needs execution)
 ```
 
-### �� Platform Separation
+### ?? Platform Separation
 - **Windows builds**: `releases/windows/`
 - **macOS builds**: `releases/macos/`
 - **Shared scripts**: `scripts/`
@@ -159,7 +159,7 @@ Each platform maintainer should only modify their respective platform directorie
 
 ---
 
-## 📖 Documentation
+## ?? Documentation
 
 - **[Installation Guide](documentation/installation/)** - Detailed installation instructions
 - **[User Guide](documentation/user_guide/)** - How to use CFSS
@@ -168,7 +168,7 @@ Each platform maintainer should only modify their respective platform directorie
 
 ---
 
-## 🔄 Auto-Updates
+## ?? Auto-Updates
 
 CFSS includes an auto-updater that:
 - Checks for new releases from this repository
@@ -178,43 +178,43 @@ CFSS includes an auto-updater that:
 
 ---
 
-## 🤝 For Developers
+## ?? For Developers
 
 ### Building v4.2.4
-**macOS**: ✅ Complete - Available for download  
-**Windows**: ✅ Complete - Available for download
+**macOS**: ? Complete - Available for download  
+**Windows**: ? Complete - Available for download
 
 Both platforms are now built and available from the same v4.2.4 source code.
 
 ### Version Synchronization Rules
-- ✅ **DO**: Build from the same source code version
-- ✅ **DO**: Keep both platforms in sync
-- ✅ **DO**: Test both platforms before release
-- ❌ **DON'T**: Release with mismatched versions
-- ❌ **DON'T**: Update version numbers until both platforms are ready
+- ? **DO**: Build from the same source code version
+- ? **DO**: Keep both platforms in sync
+- ? **DO**: Test both platforms before release
+- ? **DON'T**: Release with mismatched versions
+- ? **DON'T**: Update version numbers until both platforms are ready
 
 ### Repository Rules
-- ✅ **DO**: Modify only your platform's directories
-- ✅ **DO**: Use the provided source code in version directories
-- ✅ **DO**: Update documentation when adding features
-- ❌ **DON'T**: Modify other platform's build files
-- ❌ **DON'T**: Commit source code changes (use cfss repository)
-- ❌ **DON'T**: Include customer data in builds
+- ? **DO**: Modify only your platform's directories
+- ? **DO**: Use the provided source code in version directories
+- ? **DO**: Update documentation when adding features
+- ? **DON'T**: Modify other platform's build files
+- ? **DON'T**: Commit source code changes (use cfss repository)
+- ? **DON'T**: Include customer data in builds
 
 ---
 
-## 📈 Version History
+## ?? Version History
 
 | Version | Date | Windows | macOS | Notes |
 |---------|------|---------|-------|-------|
-| v4.4.1  | 2025-08-13 | ✅ Latest | - | Critical serial number bug fix |
-| v4.2.4  | 2025-07-09 | ✅ | ✅ Latest | High-DPI fixes, unified codebase |
+| v4.5.0  | 2025-08-13 | ? Latest | - | Auto-updater ImportError fix |
+| v4.2.4  | 2025-07-09 | ? | ? Latest | High-DPI fixes, unified codebase |
 
 *Showing current supported versions only. See [CHANGELOG.md](CHANGELOG.md) for complete version history.*
 
 ---
 
-## 🛠️ Support
+## ??? Support
 
 ### Issues and Bug Reports
 - **Development issues**: [cfss repository](https://github.com/rc91470/cfss/issues)
@@ -227,10 +227,10 @@ Both platforms are now built and available from the same v4.2.4 source code.
 
 ---
 
-## 📄 License
+## ?? License
 
 MIT License - See the development repository for full license details.
 
 ---
 
-**Latest Release:** [v4.4.1](https://github.com/rc91470/cfss_releases/releases/latest) | **Development:** [cfss](https://github.com/rc91470/cfss) | **Issues:** [Report Bug](https://github.com/rc91470/cfss_releases/issues)
+**Latest Release:** [v4.5.0](https://github.com/rc91470/cfss_releases/releases/latest) | **Development:** [cfss](https://github.com/rc91470/cfss) | **Issues:** [Report Bug](https://github.com/rc91470/cfss_releases/issues)
