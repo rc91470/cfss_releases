@@ -118,3 +118,22 @@ All notable changes to CFSS will be documented in this file.
 
 ### Auto-Updates
 Starting with v4.2.2, CFSS includes an auto-updater that checks this repository for new releases and can install updates automatically.
+
+## [v4.5.2] - 2025-10-06
+
+### 🔧 macOS Updater & Migration
+- Canonical bundle name CFSS.app enforced (migrates from versioned bundles).
+- Staged install avoids deleting running bundle; safer updates.
+- Automatic data migration: database, data folder, scan_backups, config JSONs.
+- Quarantine attributes cleared on new bundle (best effort).
+- Post-launch repair finalizes migration if updater could not fully move items.
+
+### ✅ Reliability Improvements
+- Added staged restart script for macOS.
+- Enhanced logging with [macOS update] tags.
+- Preservation fallback logic when /Applications not writable (installs to ~/Applications).
+
+### 📁 Release Files
+- CFSS-macOS-4.5.2.tar.gz
+
+---
